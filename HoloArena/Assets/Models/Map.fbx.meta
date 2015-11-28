@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: b823965e666562a40953e91bab66678e
+timeCreated: 1448585111
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Backdrop Item
+    100002: Barrier1
+    100004: Barrier2
+    100006: Base1
+    100008: Bridge
+    100010: Camera
+    100012: Directional Light
+    100014: Floor
+    100016: //RootNode
+    100018: Ramp1
+    100020: Ramp2
+    100022: Roof
+    100024: SimpleGuy.lxl
+    100026: SimpleGuy.lxl_3
+    100028: SimpleGuy.lxl_4
+    100030: Tower1
+    100032: Tower2
+    100034: Walls
+    400000: Backdrop Item
+    400002: Barrier1
+    400004: Barrier2
+    400006: Base1
+    400008: Bridge
+    400010: Camera
+    400012: Directional Light
+    400014: Floor
+    400016: //RootNode
+    400018: Ramp1
+    400020: Ramp2
+    400022: Roof
+    400024: SimpleGuy.lxl
+    400026: SimpleGuy.lxl_3
+    400028: SimpleGuy.lxl_4
+    400030: Tower1
+    400032: Tower2
+    400034: Walls
+    2300000: Barrier1
+    2300002: Barrier2
+    2300004: Base1
+    2300006: Bridge
+    2300008: Floor
+    2300010: Ramp1
+    2300012: Ramp2
+    2300014: Roof
+    2300016: SimpleGuy.lxl
+    2300018: SimpleGuy.lxl_3
+    2300020: SimpleGuy.lxl_4
+    2300022: Tower1
+    2300024: Tower2
+    2300026: Walls
+    3300000: Barrier1
+    3300002: Barrier2
+    3300004: Base1
+    3300006: Bridge
+    3300008: Floor
+    3300010: Ramp1
+    3300012: Ramp2
+    3300014: Roof
+    3300016: SimpleGuy.lxl
+    3300018: SimpleGuy.lxl_3
+    3300020: SimpleGuy.lxl_4
+    3300022: Tower1
+    3300024: Tower2
+    3300026: Walls
+    4300000: Floor
+    4300002: Base1
+    4300004: SimpleGuy.lxl
+    4300006: Tower1
+    4300008: Tower2
+    4300010: Bridge
+    4300012: Ramp1
+    4300014: Ramp2
+    4300016: SimpleGuy.lxl_3
+    4300018: SimpleGuy.lxl_4
+    4300020: Walls
+    4300022: Barrier1
+    4300024: Barrier2
+    4300026: Roof
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 40
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
