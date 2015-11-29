@@ -578,8 +578,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Land
       takeName: _196_Idle_JumpDownHigh_Idle
-      firstFrame: 158
-      lastFrame: 174
+      firstFrame: 161
+      lastFrame: 181
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

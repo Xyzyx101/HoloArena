@@ -1,0 +1,16 @@
+# Blender MTL File: 'valet.blend'
+# Material Count: 1
+
+newmtl Material__82
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd TX_Pa_CIT_Valet_White_D.tga
+map_Ks TX_Pa_CIT_Valet_S.tga
+map_Disp TX_Pa_CIT_Valet_N.tga
+map_d TX_Pa_CIT_Valet_White_D.tga
+map_Ke TX_Pa_CIT_Valet_Color_01.tga
