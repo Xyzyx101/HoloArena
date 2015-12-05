@@ -1,0 +1,649 @@
+fileFormatVersion: 2
+guid: b7b936d6a3728eb44b27ac5c79bdfedc
+timeCreated: 1449158746
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Directional Light
+    100004: Glass Artistic 02.lxp
+    100006: Metal Rust.lxp
+    100008: Metal Rusted Paint 01.lxp_2
+    100010: //RootNode
+    100012: Robot_BS01
+    100014: Sandblasted Steel.lxp
+    100016: Sandblasted Steel.lxp_5
+    100018: Skeleton_Assault__ThumbProximal_L
+    100020: Skeleton_Assault__ThumbProximal_R
+    100022: Skeleton_Assault_Chest
+    100024: Skeleton_Assault_Foot_L
+    100026: Skeleton_Assault_Foot_R
+    100028: Skeleton_Assault_FootEnd_L
+    100030: Skeleton_Assault_FootEnd_R
+    100032: Skeleton_Assault_Hand_L
+    100034: Skeleton_Assault_Hand_R
+    100036: Skeleton_Assault_Head
+    100038: Skeleton_Assault_HeadEnd
+    100040: Skeleton_Assault_Hips
+    100042: Skeleton_Assault_Index_Distal_L
+    100044: Skeleton_Assault_Index_Distal_R
+    100046: Skeleton_Assault_IndexIntermediate_L
+    100048: Skeleton_Assault_IndexIntermediate_R
+    100050: Skeleton_Assault_IndexProximal_L
+    100052: Skeleton_Assault_IndexProximal_R
+    100054: Skeleton_Assault_LittleDistal_L
+    100056: Skeleton_Assault_LittleDistal_R
+    100058: Skeleton_Assault_LittleIntermediate_L
+    100060: Skeleton_Assault_LittleIntermediate_R
+    100062: Skeleton_Assault_LittleProximal_L
+    100064: Skeleton_Assault_LittleProximal_R
+    100066: Skeleton_Assault_LowerArm_L
+    100068: Skeleton_Assault_LowerArm_R
+    100070: Skeleton_Assault_LowerLeg_L
+    100072: Skeleton_Assault_LowerLeg_R
+    100074: Skeleton_Assault_Neck
+    100076: Skeleton_Assault_Root
+    100078: Skeleton_Assault_Spine
+    100080: Skeleton_Assault_ThumbDistal_L
+    100082: Skeleton_Assault_ThumbDistal_R
+    100084: Skeleton_Assault_ThumbIntermediate_L
+    100086: Skeleton_Assault_ThumbIntermediate_R
+    100088: Skeleton_Assault_UpperArm_L
+    100090: Skeleton_Assault_UpperArm_R
+    100092: Skeleton_Assault_UpperLeg_L
+    100094: Skeleton_Assault_UpperLeg_R
+    100096: Texture Group
+    100098: Worn Edges 01.lxp
+    400000: Camera
+    400002: Directional Light
+    400004: Glass Artistic 02.lxp
+    400006: Metal Rust.lxp
+    400008: Metal Rusted Paint 01.lxp_2
+    400010: //RootNode
+    400012: Robot_BS01
+    400014: Sandblasted Steel.lxp
+    400016: Sandblasted Steel.lxp_5
+    400018: Skeleton_Assault__ThumbProximal_L
+    400020: Skeleton_Assault__ThumbProximal_R
+    400022: Skeleton_Assault_Chest
+    400024: Skeleton_Assault_Foot_L
+    400026: Skeleton_Assault_Foot_R
+    400028: Skeleton_Assault_FootEnd_L
+    400030: Skeleton_Assault_FootEnd_R
+    400032: Skeleton_Assault_Hand_L
+    400034: Skeleton_Assault_Hand_R
+    400036: Skeleton_Assault_Head
+    400038: Skeleton_Assault_HeadEnd
+    400040: Skeleton_Assault_Hips
+    400042: Skeleton_Assault_Index_Distal_L
+    400044: Skeleton_Assault_Index_Distal_R
+    400046: Skeleton_Assault_IndexIntermediate_L
+    400048: Skeleton_Assault_IndexIntermediate_R
+    400050: Skeleton_Assault_IndexProximal_L
+    400052: Skeleton_Assault_IndexProximal_R
+    400054: Skeleton_Assault_LittleDistal_L
+    400056: Skeleton_Assault_LittleDistal_R
+    400058: Skeleton_Assault_LittleIntermediate_L
+    400060: Skeleton_Assault_LittleIntermediate_R
+    400062: Skeleton_Assault_LittleProximal_L
+    400064: Skeleton_Assault_LittleProximal_R
+    400066: Skeleton_Assault_LowerArm_L
+    400068: Skeleton_Assault_LowerArm_R
+    400070: Skeleton_Assault_LowerLeg_L
+    400072: Skeleton_Assault_LowerLeg_R
+    400074: Skeleton_Assault_Neck
+    400076: Skeleton_Assault_Root
+    400078: Skeleton_Assault_Spine
+    400080: Skeleton_Assault_ThumbDistal_L
+    400082: Skeleton_Assault_ThumbDistal_R
+    400084: Skeleton_Assault_ThumbIntermediate_L
+    400086: Skeleton_Assault_ThumbIntermediate_R
+    400088: Skeleton_Assault_UpperArm_L
+    400090: Skeleton_Assault_UpperArm_R
+    400092: Skeleton_Assault_UpperLeg_L
+    400094: Skeleton_Assault_UpperLeg_R
+    400096: Texture Group
+    400098: Worn Edges 01.lxp
+    4300000: Robot_BS01
+    9500000: //RootNode
+    13700000: Robot_BS01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 40
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Skeleton_Assault_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_UpperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_UpperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault__ThumbProximal_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_ThumbIntermediate_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_IndexProximal_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_IndexIntermediate_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LittleProximal_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LittleIntermediate_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault__ThumbProximal_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_ThumbIntermediate_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_IndexProximal_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_IndexIntermediate_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LittleProximal_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Assault_LittleIntermediate_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Robot_BS01(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: 2.90023708, y: .533208132, z: 3.82551384}
+      rotation: {x: .00723483367, y: -.442004591, z: -.0146800699, w: .896863461}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: Directional Light
+      position: {x: 2, y: 2, z: 2}
+      rotation: {x: .461939752, y: .331413597, z: -.191341713, w: .800103128}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Metal Rusted Paint 01.lxp_2
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Robot_BS01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Texture Group
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Glass Artistic 02.lxp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Metal Rust.lxp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Sandblasted Steel.lxp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Sandblasted Steel.lxp_5
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Worn Edges 01.lxp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Root
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.519442797, y: .545103788, z: .4539693, w: -.476395786}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Hips
+      position: {x: -.7748999, y: 6.07153175e-18, z: -4.33680869e-19}
+      rotation: {x: -.0217798613, y: .00146449474, z: .0189332999, w: .99958241}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Spine
+      position: {x: -.0905696675, y: -.00272574741, z: .00597535912}
+      rotation: {x: .997383118, y: -.0721574053, z: 6.24186287e-05, w: -.00450394908}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Chest
+      position: {x: -.17229335, y: -3.90312782e-18, z: -4.33680869e-19}
+      rotation: {x: -.0141540878, y: .000858934363, z: .0022468504, w: .999896944}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Neck
+      position: {x: -.223436788, y: 7.11063549e-05, z: .000997458701}
+      rotation: {x: -.0351762995, y: .00576875033, z: .0994628742, w: .994402587}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Head
+      position: {x: -.0983628407, y: 1.2468325e-17, z: .00100000005}
+      rotation: {x: .986781597, y: -.162056044, z: 1.19974689e-15, w: -1.11159734e-14}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_HeadEnd
+      position: {x: -.176056787, y: .000499798334, z: -2.54002103e-18}
+      rotation: {x: -2.23707019e-07, y: 8.03731837e-09, z: .23550798, w: .971872389}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_UpperArm_L
+      position: {x: .0428108536, y: .0630572587, z: -.237000003}
+      rotation: {x: .401664317, y: -.552127898, z: .459200472, w: .568291724}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LowerArm_L
+      position: {x: -.296006739, y: .000998715637, z: 1.07336015e-17}
+      rotation: {x: -.000651189999, y: -.0314980038, z: -.0299970787, w: .999053359}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Hand_L
+      position: {x: -.214011684, y: -8.42167603e-17, z: 2.94767466e-19}
+      rotation: {x: .00673878519, y: -.194409341, z: -.0248175617, w: .98058337}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LittleProximal_L
+      position: {x: -.116888843, y: .00099820341, z: 3.42607887e-17}
+      rotation: {x: -.0044400245, y: .124795914, z: .0730471015, w: .989479899}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LittleIntermediate_L
+      position: {x: -.0937016532, y: 1.78469842e-16, z: -2.4286127e-17}
+      rotation: {x: .000138724936, y: .00109548972, z: -.0240072682, w: .999711215}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LittleDistal_L
+      position: {x: -.0980206877, y: -2.39486781e-05, z: .000971920963}
+      rotation: {x: -.060735777, y: .998029411, z: .00255403714, w: -.0155561399}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_IndexProximal_L
+      position: {x: -.0851501375, y: .00290330383, z: .0939469188}
+      rotation: {x: -.0147520257, y: .268194228, z: .015736945, w: .963123322}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_IndexIntermediate_L
+      position: {x: -.0921845958, y: -5.51054224e-16, z: -8.63024863e-17}
+      rotation: {x: .0198752377, y: .00763714546, z: .0230848454, w: .999506772}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Index_Distal_L
+      position: {x: -.104962923, y: -.000738378498, z: -.000487849524}
+      rotation: {x: .172933489, y: .933476985, z: -.124285616, w: .288561672}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault__ThumbProximal_L
+      position: {x: -.0232904609, y: .00160740095, z: .0968966931}
+      rotation: {x: .0123979822, y: .607207954, z: .062248759, w: .792003691}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_ThumbIntermediate_L
+      position: {x: -.0899610966, y: 8.21039624e-17, z: 2.18141464e-16}
+      rotation: {x: .0334203243, y: .0351527818, z: .0187756065, w: .998646498}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_ThumbDistal_L
+      position: {x: -.0850240439, y: 9.11160387e-05, z: -.000951124763}
+      rotation: {x: -.0846061334, y: .131451264, z: -.755824029, w: .635839939}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_UpperArm_R
+      position: {x: .0428108536, y: .0630572587, z: .238999978}
+      rotation: {x: -.401664317, y: .552127898, z: .459200472, w: .568291724}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LowerArm_R
+      position: {x: -.296006739, y: .000998715637, z: -3.17129135e-17}
+      rotation: {x: .000651189999, y: .0314980038, z: -.0299970787, w: .999053359}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Hand_R
+      position: {x: -.214011684, y: -6.09841911e-16, z: 1.03373595e-16}
+      rotation: {x: -.00673878519, y: .194409341, z: -.0248175617, w: .98058337}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LittleProximal_R
+      position: {x: -.116888843, y: .00099820341, z: -2.07299442e-16}
+      rotation: {x: .00444029691, y: -.124796383, z: .0730464011, w: .989479899}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LittleIntermediate_R
+      position: {x: -.0937016532, y: -5.07762371e-16, z: -4.25007252e-17}
+      rotation: {x: -.000138724936, y: -.00109548972, z: -.0240072682, w: .999711215}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LittleDistal_R
+      position: {x: -.0980206877, y: -2.39486781e-05, z: -.000971920963}
+      rotation: {x: -.462046504, y: -.430655897, z: .546045303, w: .550348103}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_IndexProximal_R
+      position: {x: -.0851501375, y: .00290330383, z: -.0939469188}
+      rotation: {x: .0147520173, y: -.268194109, z: .0157372449, w: .963123441}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_IndexIntermediate_R
+      position: {x: -.0921845958, y: -5.88523945e-16, z: -7.78457094e-17}
+      rotation: {x: -.0198750086, y: -.0076369918, z: .0230845902, w: .999506772}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Index_Distal_R
+      position: {x: -.104962923, y: -.000738378498, z: .000487849524}
+      rotation: {x: -.291135132, y: -.179766253, z: .469829708, w: .813747168}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault__ThumbProximal_R
+      position: {x: -.0232904609, y: .00160740095, z: -.0968966931}
+      rotation: {x: -.0123981545, y: -.607207835, z: .0622487962, w: .792003751}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_ThumbIntermediate_R
+      position: {x: -.0899610966, y: -3.57973673e-16, z: -1.63064007e-16}
+      rotation: {x: -.0334201828, y: -.0351518095, z: .0187753066, w: .998646557}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_ThumbDistal_R
+      position: {x: -.0850240439, y: 9.11160387e-05, z: .000951124763}
+      rotation: {x: -.587740481, y: .0897173211, z: .0703779086, w: .800973713}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_UpperLeg_L
+      position: {x: -.0336172581, y: -.0173636042, z: .0871859267}
+      rotation: {x: -.022966845, y: .821547568, z: .565977693, w: .0648178831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LowerLeg_L
+      position: {x: -.373760641, y: -2.05456295e-17, z: 8.45677695e-18}
+      rotation: {x: -.791093409, y: -.0808068663, z: .0243574865, w: .605845034}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Foot_L
+      position: {x: -.308585495, y: -4.33680869e-19, z: 1.56125113e-17}
+      rotation: {x: .807917237, y: .589005232, z: .00996219926, w: -.0155992853}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_FootEnd_L
+      position: {x: -.261070937, y: 3.68128592e-17, z: -5.55653613e-18}
+      rotation: {x: -.0439774767, y: -.125941798, z: -.0362150334, w: .990400493}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_UpperLeg_R
+      position: {x: -.0348626301, y: -.031795688, z: -.0721569881}
+      rotation: {x: -.0214312468, y: .766617656, z: -.637578607, w: -.0730178878}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_LowerLeg_R
+      position: {x: -.373760641, y: 8.81659588e-17, z: 1.80194388e-16}
+      rotation: {x: .791093409, y: .0808068663, z: .0243574865, w: .605845034}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_Foot_R
+      position: {x: -.308585495, y: -1.16660154e-16, z: -2.77555756e-17}
+      rotation: {x: .807917237, y: .589005232, z: -.00996219926, w: .0155992853}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Assault_FootEnd_R
+      position: {x: -.261070937, y: 2.15568998e-16, z: -1.20346441e-17}
+      rotation: {x: .043977607, y: .125941962, z: -.0362150297, w: .990400493}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: .100000001
+    rootMotionBoneName: Skeleton_Assault
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0d8413a1623fbbd49b07a47359e27907,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

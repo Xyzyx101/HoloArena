@@ -1,0 +1,900 @@
+fileFormatVersion: 2
+guid: 9ad22be5d2f938b4c9524495aa5f45d0
+timeCreated: 1448928253
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Directional Light
+    100004: SimpleGuy.lxl
+    100006: Skeleton_Ankle_L
+    100008: Skeleton_Ankle_R
+    100010: Skeleton_Chest
+    100012: Skeleton_Foot_L
+    100014: Skeleton_Foot_R
+    100016: Skeleton_Hand_L
+    100018: Skeleton_Hand_R
+    100020: Skeleton_Head
+    100022: Skeleton_HeadEnd
+    100024: Skeleton_Hips
+    100026: Skeleton_Idex_Distal_L
+    100028: Skeleton_Index_Distal_R
+    100030: Skeleton_Index_Intermediate_L
+    100032: Skeleton_Index_Intermediate_R
+    100034: Skeleton_Index_Proximal_L
+    100036: Skeleton_Index_Proximal_R
+    100038: Skeleton_Little_Distal
+    100040: Skeleton_Little_Distal_L
+    100042: Skeleton_Little_Intermediate_L
+    100044: Skeleton_Little_Intermediate_R
+    100046: Skeleton_Little_Proximal_L
+    100048: Skeleton_Little_Proximal_R
+    100050: Skeleton_LowerArm_L
+    100052: Skeleton_LowerArm_R
+    100054: Skeleton_LowerLeg_L
+    100056: Skeleton_LowerLeg_R
+    100058: Skeleton_Middle_Distal_L
+    100060: Skeleton_Middle_Distal_R
+    100062: Skeleton_Middle_Intermediate_L
+    100064: Skeleton_Middle_Intermediate_R
+    100066: Skeleton_Middle_Proximal_L
+    100068: Skeleton_Middle_Proximal_R
+    100070: Skeleton_Neck
+    100072: Skeleton_Ring_Distal_L
+    100074: Skeleton_Ring_Distal_R
+    100076: Skeleton_Ring_Intermediate_L
+    100078: Skeleton_Ring_Intermediate_R
+    100080: Skeleton_Ring_Proximal_L
+    100082: Skeleton_Ring_Proximal_R
+    100084: Skeleton_Root
+    100086: Skeleton_Spine
+    100088: Skeleton_Thumb_Distal_L
+    100090: Skeleton_Thumb_Distal_R
+    100092: Skeleton_Thumb_Intermediate_L
+    100094: Skeleton_Thumb_Intermediate_R
+    100096: Skeleton_Thumb_Proximal_L
+    100098: Skeleton_Thumb_Proximal_R
+    100100: Skeleton_Toes_L
+    100102: Skeleton_Toes_R
+    100104: Skeleton_UpperArm_L
+    100106: Skeleton_UpperArm_R
+    100108: Skeleton_UpperLeg_L
+    100110: Skeleton_UpperLeg_R
+    100112: Skeleton_Wrist_L
+    100114: Skeleton_Wrist_R
+    100116: Texture Group
+    100118: //RootNode
+    100120: Valet
+    100122: valet
+    400000: Camera
+    400002: Directional Light
+    400004: SimpleGuy.lxl
+    400006: Skeleton_Ankle_L
+    400008: Skeleton_Ankle_R
+    400010: Skeleton_Chest
+    400012: Skeleton_Foot_L
+    400014: Skeleton_Foot_R
+    400016: Skeleton_Hand_L
+    400018: Skeleton_Hand_R
+    400020: Skeleton_Head
+    400022: Skeleton_HeadEnd
+    400024: Skeleton_Hips
+    400026: Skeleton_Idex_Distal_L
+    400028: Skeleton_Index_Distal_R
+    400030: Skeleton_Index_Intermediate_L
+    400032: Skeleton_Index_Intermediate_R
+    400034: Skeleton_Index_Proximal_L
+    400036: Skeleton_Index_Proximal_R
+    400038: Skeleton_Little_Distal
+    400040: Skeleton_Little_Distal_L
+    400042: Skeleton_Little_Intermediate_L
+    400044: Skeleton_Little_Intermediate_R
+    400046: Skeleton_Little_Proximal_L
+    400048: Skeleton_Little_Proximal_R
+    400050: Skeleton_LowerArm_L
+    400052: Skeleton_LowerArm_R
+    400054: Skeleton_LowerLeg_L
+    400056: Skeleton_LowerLeg_R
+    400058: Skeleton_Middle_Distal_L
+    400060: Skeleton_Middle_Distal_R
+    400062: Skeleton_Middle_Intermediate_L
+    400064: Skeleton_Middle_Intermediate_R
+    400066: Skeleton_Middle_Proximal_L
+    400068: Skeleton_Middle_Proximal_R
+    400070: Skeleton_Neck
+    400072: Skeleton_Ring_Distal_L
+    400074: Skeleton_Ring_Distal_R
+    400076: Skeleton_Ring_Intermediate_L
+    400078: Skeleton_Ring_Intermediate_R
+    400080: Skeleton_Ring_Proximal_L
+    400082: Skeleton_Ring_Proximal_R
+    400084: Skeleton_Root
+    400086: Skeleton_Spine
+    400088: Skeleton_Thumb_Distal_L
+    400090: Skeleton_Thumb_Distal_R
+    400092: Skeleton_Thumb_Intermediate_L
+    400094: Skeleton_Thumb_Intermediate_R
+    400096: Skeleton_Thumb_Proximal_L
+    400098: Skeleton_Thumb_Proximal_R
+    400100: Skeleton_Toes_L
+    400102: Skeleton_Toes_R
+    400104: Skeleton_UpperArm_L
+    400106: Skeleton_UpperArm_R
+    400108: Skeleton_UpperLeg_L
+    400110: Skeleton_UpperLeg_R
+    400112: Skeleton_Wrist_L
+    400114: Skeleton_Wrist_R
+    400116: Texture Group
+    400118: Valet
+    400120: //RootNode
+    400122: valet
+    2300000: SimpleGuy.lxl
+    2300002: Valet
+    3300000: SimpleGuy.lxl
+    3300002: Valet
+    4300000: Valet
+    4300002: SimpleGuy.lxl
+    9500000: //RootNode
+    13700000: Valet
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Skeleton_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 20, y: 60, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 20, y: 60, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: -80}
+        max: {x: 0, y: 0, z: 80}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_Ankle_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: -15, z: -40}
+        max: {x: 0, y: 15, z: 40}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_Ankle_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: -15, z: -40}
+        max: {x: 0, y: 15, z: 40}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: -30.5263157, z: -40}
+        max: {x: 0, y: 30.5263119, z: 27.3684235}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: -19.4736843}
+        max: {x: 0, y: 0, z: 40}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Skeleton_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_UpperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_UpperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_LowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_LowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Wrist_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Wrist_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Toes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Toes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Thumb_Proximal_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Thumb_Intermediate_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Thumb_Distal_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Index_Proximal_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Index_Intermediate_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Idex_Distal_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Middle_Proximal_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Middle_Intermediate_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Middle_Distal_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Ring_Proximal_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Ring_Intermediate_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Ring_Distal_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Little_Proximal_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Little_Intermediate_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Little_Distal_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Thumb_Proximal_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Thumb_Intermediate_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Thumb_Distal_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Index_Proximal_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Index_Intermediate_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Index_Distal_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Middle_Proximal_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Middle_Intermediate_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Middle_Distal_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Ring_Proximal_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Ring_Intermediate_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Ring_Distal_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Little_Proximal_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Little_Intermediate_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Skeleton_Little_Distal
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Valet(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Valet
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Root
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.54373455, y: .555983186, z: -.439563572, w: .449465603}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Skeleton_Hips
+      position: {x: -.96423918, y: 3.59351701e-18, z: -1.67268834e-18}
+      rotation: {x: .0488250032, y: -.00348233222, z: .048848927, w: .997606039}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Spine
+      position: {x: -.0961676612, y: 9.08122221e-18, z: 7.00848885e-19}
+      rotation: {x: .979459822, y: -.192296728, z: -.00446920097, w: -.0605022758}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Chest
+      position: {x: -.149877265, y: 2.22317131e-17, z: -4.83755592e-19}
+      rotation: {x: -.109709486, y: .0326527879, z: .0215384699, w: .993193746}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Neck
+      position: {x: -.0822783262, y: -1.18048705e-16, z: 4.61111574e-19}
+      rotation: {x: .919742227, y: -.370827079, z: -.00929459278, w: -.128355995}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Head
+      position: {x: -.0932445377, y: -1.50001313e-17, z: -3.06455037e-20}
+      rotation: {x: -.0327457599, y: .00803687796, z: -.213090256, w: .976450562}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_HeadEnd
+      position: {x: -.116383694, y: 6.99868169e-18, z: -1.87893184e-19}
+      rotation: {x: .63533479, y: -.379856855, z: .330014467, w: .585789144}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_UpperArm_L
+      position: {x: -.0710557476, y: -.0106515838, z: .108146869}
+      rotation: {x: -.370511025, y: .49944073, z: .488223672, w: .612305701}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_LowerArm_L
+      position: {x: -.24238573, y: 5.55111512e-17, z: 3.85975973e-17}
+      rotation: {x: .234340712, y: .0297047067, z: -.0152066769, w: .971581638}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Wrist_L
+      position: {x: -.215270594, y: -2.75373799e-16, z: 6.9388939e-17}
+      rotation: {x: .0944906995, y: .0971390381, z: -.0976385921, w: .985952437}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Hand_L
+      position: {x: -.0600542724, y: -.000218843532, z: .00035594849}
+      rotation: {x: .120410442, y: .920259655, z: -.192306668, w: .318812877}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Thumb_Proximal_L
+      position: {x: -.0353684016, y: -1.41564736e-16, z: 1.74027419e-17}
+      rotation: {x: .113544323, y: -.713270068, z: .314436764, w: .61602205}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Thumb_Intermediate_L
+      position: {x: -.0364318639, y: -1.17961196e-16, z: -4.85722573e-17}
+      rotation: {x: -.360847861, y: -.0234238449, z: .0139935948, w: .932225525}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Thumb_Distal_L
+      position: {x: -.0324804895, y: -6.41847686e-17, z: 4.77048956e-17}
+      rotation: {x: -.555101991, y: -.561205924, z: -.179423988, w: .587125957}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Index_Proximal_L
+      position: {x: .00741030136, y: -.0105377799, z: -.0250727627}
+      rotation: {x: .208566353, y: .905263722, z: -.220774725, w: -.297079504}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Index_Intermediate_L
+      position: {x: -.0274353307, y: -1.40512602e-16, z: 6.41847686e-17}
+      rotation: {x: .0930144861, y: .00563628925, z: .0304864384, w: .995181978}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Idex_Distal_L
+      position: {x: -.0282412395, y: -1.32706346e-16, z: 2.94902991e-17}
+      rotation: {x: .403144866, y: .790092826, z: -.357213914, w: .292618871}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Middle_Proximal_L
+      position: {x: .011752883, y: -.00860890932, z: -.00404518843}
+      rotation: {x: .199471116, y: .914810479, z: -.206147179, w: -.284317434}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Middle_Intermediate_L
+      position: {x: -.0375064425, y: 2.42861287e-17, z: 7.97972799e-17}
+      rotation: {x: .502814054, y: .0193385854, z: .018854294, w: .863972545}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Middle_Distal_L
+      position: {x: -.035198845, y: 3.90312782e-17, z: 6.50521303e-19}
+      rotation: {x: -.284364611, y: -.537472248, z: .621529222, w: -.493925005}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ring_Proximal_L
+      position: {x: .0186928883, y: -.0124558359, z: .0105626509}
+      rotation: {x: .22158584, y: .895363629, z: -.235397235, w: -.306287229}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ring_Intermediate_L
+      position: {x: -.0361012295, y: -1.2490009e-16, z: 6.07153217e-17}
+      rotation: {x: .511452854, y: .0250270609, z: .0121897934, w: .858860314}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ring_Distal_L
+      position: {x: -.024477534, y: 1.90819582e-17, z: 2.03396328e-16}
+      rotation: {x: .215796933, y: .504747629, z: -.609236896, w: .572269142}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Little_Proximal_L
+      position: {x: .0175500326, y: -.0114052333, z: .0288941618}
+      rotation: {x: .153094515, y: .89530772, z: -.229952082, w: -.34943983}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Little_Intermediate_L
+      position: {x: -.0259882733, y: -1.95156391e-16, z: 3.6429193e-17}
+      rotation: {x: .315971315, y: .0232056864, z: .0175882988, w: .948321819}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Little_Distal_L
+      position: {x: -.0239739716, y: -8.15320034e-17, z: -6.81963166e-17}
+      rotation: {x: .236625463, y: .641360044, z: -.506025672, w: .525931239}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_UpperArm_R
+      position: {x: -.0567743033, y: .0337849073, z: -.0994267538}
+      rotation: {x: -.456599206, y: .630346, z: -.396887213, w: -.486478835}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_LowerArm_R
+      position: {x: -.24238573, y: -3.46944695e-16, z: 8.63024929e-17}
+      rotation: {x: -.234340757, y: -.0297049768, z: -.015205849, w: .971581638}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Wrist_R
+      position: {x: -.215270594, y: 7.59049941e-16, z: 1.43895312e-15}
+      rotation: {x: -.0944906995, y: -.0971390381, z: -.0976385921, w: .985952437}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Hand_R
+      position: {x: -.0600542724, y: -.000218843532, z: -.00035594849}
+      rotation: {x: .0689238235, y: .909448922, z: .114750825, w: -.393680722}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Thumb_Proximal_R
+      position: {x: -.0353684016, y: -2.41154171e-16, z: -3.11288976e-16}
+      rotation: {x: -.17260702, y: .713531852, z: .239961863, w: .635214508}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Thumb_Intermediate_R
+      position: {x: -.0364318639, y: 2.09901541e-16, z: 3.98986399e-17}
+      rotation: {x: .36084792, y: .0234256983, z: .0139925424, w: .932225466}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Thumb_Distal_R
+      position: {x: -.0324804895, y: -2.72785267e-16, z: 1.40078921e-16}
+      rotation: {x: .69778955, y: .705462515, z: .0362824909, w: -.118726566}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Index_Proximal_R
+      position: {x: .00741030136, y: -.0105377799, z: .0250727627}
+      rotation: {x: .160132229, y: .909737289, z: .199006453, w: .327310532}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Index_Intermediate_R
+      position: {x: -.0274353307, y: -1.87350135e-16, z: -5.55111512e-17}
+      rotation: {x: -.0930140689, y: -.00563223241, z: .0304816607, w: .995182216}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Index_Distal_R
+      position: {x: -.0282412395, y: -1.76074433e-16, z: -1.37910516e-16}
+      rotation: {x: .403144866, y: .790092826, z: .357213914, w: -.292618871}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Middle_Proximal_R
+      position: {x: .011752883, y: -.00860890932, z: .00404518843}
+      rotation: {x: .159472674, y: .91593194, z: .186748356, w: .317430794}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Middle_Intermediate_R
+      position: {x: -.0375064425, y: 1.04083409e-16, z: 4.85722573e-17}
+      rotation: {x: -.502813637, y: -.0193365999, z: .0188522115, w: .863972902}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Middle_Distal_R
+      position: {x: -.035198845, y: 1.86482774e-16, z: -1.76074433e-16}
+      rotation: {x: .284364611, y: .537472248, z: .621529222, w: -.493925005}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ring_Proximal_R
+      position: {x: .0186928883, y: -.0124558359, z: -.0105626509}
+      rotation: {x: .159227759, y: .904386997, z: .209033042, w: .336208194}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ring_Intermediate_R
+      position: {x: -.0361012295, y: -8.50014503e-17, z: 5.72458747e-17}
+      rotation: {x: -.511452794, y: -.0250230636, z: .0121883899, w: .858860552}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ring_Distal_R
+      position: {x: -.024477534, y: 6.85215773e-17, z: -2.49800181e-16}
+      rotation: {x: -.215796933, y: -.504747629, z: -.609236896, w: .572269142}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Little_Proximal_R
+      position: {x: .0175500326, y: -.0114052333, z: -.0288941618}
+      rotation: {x: .153094515, y: .89530772, z: .229952082, w: .34943983}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Little_Intermediate_R
+      position: {x: -.0259882733, y: -3.2959746e-17, z: -7.45931095e-17}
+      rotation: {x: -.315971673, y: -.0232066084, z: .0175898187, w: .9483217}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Little_Distal
+      position: {x: -.0239739716, y: -1.97758476e-16, z: -1.77700736e-16}
+      rotation: {x: -.236625463, y: -.641360044, z: -.506025672, w: .525931239}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_UpperLeg_L
+      position: {x: .0735764131, y: .0198707897, z: -.0941302404}
+      rotation: {x: .00534891803, y: .522654474, z: .847384989, w: .0935004577}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_LowerLeg_L
+      position: {x: -.394291669, y: 9.54097912e-18, z: 5.20417043e-18}
+      rotation: {x: .869249165, y: .115117535, z: -.0153851025, w: .480538428}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ankle_L
+      position: {x: -.426702648, y: 7.37257477e-18, z: 1.25767452e-17}
+      rotation: {x: .868087053, y: .485217214, z: -.0355531871, w: .0986163467}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Foot_L
+      position: {x: -.100657836, y: 1.08420217e-17, z: -8.67361738e-18}
+      rotation: {x: .013030123, y: .033638496, z: -.338476211, w: .940283239}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Toes_L
+      position: {x: -.0832406133, y: 1.6093626e-18, z: 0}
+      rotation: {x: -.00879627746, y: -.732101858, z: -.00818335544, w: .681089222}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_UpperLeg_R
+      position: {x: .0710797608, y: -.000812167302, z: .0891926065}
+      rotation: {x: -.00629982725, y: -.615569949, z: .783303201, w: .0864296854}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_LowerLeg_R
+      position: {x: -.394291669, y: -2.82976767e-16, z: -9.71445147e-17}
+      rotation: {x: .869249165, y: .115117535, z: .0153851025, w: -.480538428}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Ankle_R
+      position: {x: -.426702648, y: -1.34170019e-16, z: -3.38271078e-17}
+      rotation: {x: .868087053, y: .485217214, z: .0355531871, w: -.0986163467}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Foot_R
+      position: {x: -.100657836, y: 9.06393016e-17, z: -2.25514052e-17}
+      rotation: {x: -.013030123, y: -.033638496, z: -.338476211, w: .940283239}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skeleton_Toes_R
+      position: {x: -.0832406133, y: 2.70576205e-17, z: 2.94902991e-17}
+      rotation: {x: -.00818335544, y: -.681089222, z: -.00879627746, w: .732101858}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: -3.24546909, y: 5.27909231, z: 7.82083416}
+      rotation: {x: -.0726388842, y: -.841245115, z: .0460890196, w: .533765912}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: valet
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Texture Group
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Directional Light
+      position: {x: 2, y: 2, z: 2}
+      rotation: {x: .461939752, y: .331413597, z: -.191341713, w: .800103128}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    armTwist: .503000021
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .108000003
+    feetSpacing: .0250000004
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

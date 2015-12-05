@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     public float MinTilt;
     public Quaternion turnRotation;
     public bool Grounded;
+    public bool CanMove = true;
 
     private Rigidbody RB;
     private Animator MyAnimator;
@@ -33,11 +34,21 @@ public class PlayerController : MonoBehaviour
         MyAnimator = GetComponentInChildren<Animator>();
         MyIKController = GetComponentInChildren<IKController>();
         LookAt = transform.forward;
+        GameObject target = new GameObject("Target");
+        target.transform.position = transform.position + transform.forward * 10f;
+        target.transform.rotation = transform.rotation;
+        LookAtTarget = target.transform;
+        IKController ikController = GetComponentInChildren<IKController>();
+        ikController.TargetObj = target.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!CanMove)
+        {
+            return;
+        }
         Vector3 touchRayOrigin = transform.position + transform.up * 0.2f;
         Vector3 touchRayDirection = -transform.up;
         float touchRayRange = 0.85f;
@@ -105,6 +116,10 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(!CanMove)
+        {
+            return;
+        }
         if (Grounded)
         {
             float forward = Input.GetAxis("Vertical");
