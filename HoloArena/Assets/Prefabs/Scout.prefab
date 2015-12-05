@@ -1904,6 +1904,8 @@ MonoBehaviour:
   turnRotation: {x: 0, y: 0, z: 0, w: 0}
   Grounded: 1
   CanMove: 1
+  HeadTransform: {fileID: 0}
+  TargetPrefab: {fileID: 168410, guid: fda224ecb3a743d4c8d9e4877b321f07, type: 2}
 --- !u!114 &11442862
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2021,7 +2023,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: TargetPrefab
+      value: 
+      objectReference: {fileID: 168410, guid: fda224ecb3a743d4c8d9e4877b321f07, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 170858}

@@ -22,19 +22,23 @@ public class PlayerController : MonoBehaviour
     public Quaternion turnRotation;
     public bool Grounded;
     public bool CanMove = true;
+    public Transform HeadTransform;
+    public GameObject TargetPrefab;
+    public LineRenderer TargetLine;
 
     private Rigidbody RB;
     private Animator MyAnimator;
     private IKController MyIKController;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         RB = GetComponent<Rigidbody>();
         MyAnimator = GetComponentInChildren<Animator>();
         MyIKController = GetComponentInChildren<IKController>();
         LookAt = transform.forward;
-        GameObject target = new GameObject("Target");
+        GameObject target = Instantiate(TargetPrefab);
+        TargetLine = target.GetComponentInChildren<LineRenderer>();
         target.transform.position = transform.position + transform.forward * 10f;
         target.transform.rotation = transform.rotation;
         LookAtTarget = target.transform;
@@ -220,7 +224,12 @@ public class PlayerController : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(HeadPosition.position, LookAt, out hit))
         {
-            LookAtTarget.position = hit.point;
+            LookAtTarget.position = hit.point + hit.normal * 0.01f;
+            LookAtTarget.rotation = Quaternion.LookRotation(hit.normal);
+            float distance = (hit.point - HeadPosition.position).magnitude * 0.1f;
+            LookAtTarget.localScale = new Vector3(distance, distance, 1f);
+            TargetLine.SetPosition(0, HeadPosition.position + Vector3.up * 0.1f);
+            TargetLine.SetPosition(1, hit.point);
         }
 
         //  Turn Rotation
