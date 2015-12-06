@@ -11,7 +11,7 @@ GameObject:
   - 136: {fileID: 13657654}
   - 54: {fileID: 5403782}
   - 114: {fileID: 11435010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Assault
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 416264}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LittleDistal_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 406452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LowerArm_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 419430}
   - 137: {fileID: 13708110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EM208heavy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 469372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_ThumbDistal_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 464670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Foot_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 418962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LowerLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 402236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_IndexIntermediate_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 457486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_ThumbIntermediate_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 457854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_R_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 411544}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LittleDistal_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 401542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_IndexProximal_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 420938}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_UpperLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 403346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_IndexIntermediate_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 486490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_IndexDistal_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,7 +237,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 442388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Hand_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 440090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_ThumbIntermediate_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,7 @@ GameObject:
   - 4: {fileID: 475338}
   - 95: {fileID: 9588966}
   - 114: {fileID: 11432908}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EM-208_heavy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +284,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 462570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 437260}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 474842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LittleProximal_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 498036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_UpperArm_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 404454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_ThumbProximal_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 458992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LittleIntermediate_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 425464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault__ThumbProximal_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 485682}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LittleIntermediate_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LowerArm_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +419,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 447346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LowerLeg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 414194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +449,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 495948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Index_Distal_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 422464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 410536}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 431422}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_IndexProximal_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,7 +509,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 457304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 412388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_HeadEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -539,7 +539,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 411912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_UpperArm_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -554,7 +554,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 439192}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_Hand_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -569,7 +569,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 460918}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_UpperLeg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 467080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_ThumbDistal_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -599,7 +599,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 473480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Skeleton_Assault_LittleProximal_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1203,6 +1203,11 @@ MonoBehaviour:
   turnRotation: {x: 0, y: 0, z: 0, w: 0}
   Grounded: 1
   CanMove: 1
+  HeadTransform: {fileID: 0}
+  TargetPrefab: {fileID: 0}
+  TargetLine: {fileID: 0}
+  Power: 0
+  MaxPower: 100
 --- !u!136 &13657654
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1288,7 +1293,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MaxPower
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 101802}

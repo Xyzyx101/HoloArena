@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     public Transform HeadTransform;
     public GameObject TargetPrefab;
     public LineRenderer TargetLine;
+    public float Power;
+    public float MaxPower;
 
     private Rigidbody RB;
     private Animator MyAnimator;
@@ -101,26 +103,14 @@ public class PlayerController : MonoBehaviour
         Vector3 projLookAt = MathUtils.ProjectVectorOnPlane(Vector3.up, LookAt);
         float angle = MathUtils.SignedVectorAngle(transform.forward, projLookAt, transform.up);
         MyAnimator.SetFloat("Turn", Mathf.Clamp(angle / 90, -1f, 1f));
-        //Debug.Log(angle / 90f);
 
         // AnimationSpeed
         MyAnimator.SetFloat("Speed", 0.8f + RB.velocity.magnitude * 0.2f);
-
-        //AnimatorStateInfo debugInfo = MyAnimator.GetCurrentAnimatorStateInfo(0);
-        //if (debugInfo.IsName("Idle"))
-        //{
-        //    Debug.Log("Idle");
-        //}
-        //else if (debugInfo.IsName("TurnOnSpot"))
-        //{
-        //    Debug.Log("TurnOnSpot");
-        //    Debug.Log(angle / 90f);
-        //}
     }
 
     void FixedUpdate()
     {
-        if(!CanMove)
+        if (!CanMove)
         {
             return;
         }

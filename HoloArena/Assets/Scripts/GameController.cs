@@ -23,6 +23,7 @@ public class GameController : MonoBehaviour
             case (GameState.Arena):
                 SetCursorLock(true);
                 GameObject robot = RobotBuilder1.BuildRobot(Player1Spawn);
+                robot.tag = "Player1";
                 Player1 = robot.GetComponent<PlayerController>();
                 Player1.CanMove = true;
 
@@ -30,6 +31,10 @@ public class GameController : MonoBehaviour
                 Player1Camera.Player = Player1.transform;
                 Player1Camera.PlayerHead = Player1.HeadPosition;
                 Player1Camera.PlayerLookAtTarget = Player1.LookAtTarget;
+
+                GameObject Player1UIObj = GameObject.Find("Player1UI");
+                UIController Player1UI = Player1UIObj.GetComponent<UIController>();
+                Player1UI.Player = Player1;
 
                 break;
         }
@@ -57,6 +62,26 @@ public class GameController : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
         }
         
+    }
+
+    public Color GetTeam1PrimaryColor()
+    {
+        return Color.red;
+    }
+
+    public Color GetTeam1SecondaryColor()
+    {
+        return Color.grey;
+    }
+
+    public Color GetTeam2PrimaryColor()
+    {
+        return Color.blue;
+    }
+
+    Color GetTeam2SecondaryColor()
+    {
+        return Color.yellow;
     }
 
 }

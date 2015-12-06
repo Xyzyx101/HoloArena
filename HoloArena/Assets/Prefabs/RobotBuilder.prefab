@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7, z: 0}
+  m_LocalPosition: {x: -36.2434311, y: 7.6630106, z: -.873472095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -41,24 +41,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RobotObjs:
   - Type: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0}
-    SecondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    PrimaryColor: {r: 0, g: .0426880009, b: .927999973, a: 1}
+    SecondaryColor: {r: .902999997, g: .86688, b: 0, a: 1}
     EnginePower: 0
     Agility: 0
     Weight: 0
     Armour: 0
     Modules: []
   - Type: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0}
-    SecondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    PrimaryColor: {r: 0, g: .0426880009, b: .927999973, a: 1}
+    SecondaryColor: {r: .902999997, g: .86688, b: 0, a: 1}
     EnginePower: 0
     Agility: 0
     Weight: 0
     Armour: 0
     Modules: []
   - Type: 0
-    PrimaryColor: {r: 0, g: 0, b: 0, a: 0}
-    SecondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    PrimaryColor: {r: 0, g: .0426880009, b: .927999973, a: 1}
+    SecondaryColor: {r: .902999997, g: .86688, b: 0, a: 1}
     EnginePower: 0
     Agility: 0
     Weight: 0
