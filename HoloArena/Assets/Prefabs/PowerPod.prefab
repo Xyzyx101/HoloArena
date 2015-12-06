@@ -90,7 +90,7 @@ Transform:
   m_GameObject: {fileID: 112438}
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
   m_LocalPosition: {x: 0, y: 100, z: 0}
-  m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 3.5}
   m_Children: []
   m_Father: {fileID: 490348}
   m_RootOrder: 2
@@ -137,7 +137,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 117908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.8199997, y: 8.38000011, z: -19.9799995}
+  m_LocalPosition: {x: -21.5, y: -1.91490507, z: 28.7000008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 432406}
@@ -156,9 +156,9 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3020754a3717e5d4d9ba0cfcce0362b5, type: 2}
-  - {fileID: 2100000, guid: 11f54aa8ffbb2cc438e738006edfe0c2, type: 2}
-  - {fileID: 2100000, guid: ec0e372d328cb9e4fa32960554100791, type: 2}
+  - {fileID: 2100000, guid: c94b3c42f137def4c8fac072ee3aa27e, type: 2}
+  - {fileID: 2100000, guid: 5f4b26365496cb04b9beabcd38c0867a, type: 2}
+  - {fileID: 2100000, guid: 6a0b8ce1de2533b428bd35c0af155bb0, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -202,7 +202,7 @@ MonoBehaviour:
   CaptureSpeed: 120
   Team1Color: {r: 0, g: 0, b: 0, a: 0}
   Team2Color: {r: 0, g: 0, b: 0, a: 0}
-  GlowMaterial: {fileID: 0}
+  GlowMaterialIndex: 1
 --- !u!136 &13685238
 CapsuleCollider:
   m_ObjectHideFlags: 1

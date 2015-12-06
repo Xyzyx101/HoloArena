@@ -17,14 +17,15 @@ public class PowerPod : MonoBehaviour
     public Color Team1Color;
     public Color Team2Color;
     private LayerMask CaptureMask;
-    public Material GlowMaterial;
+    private Material GlowMaterial;
+    public int GlowMaterialIndex;
 
     void Start()
     {
         string[] layers = { "Player" };
         CaptureMask = LayerMask.GetMask(layers);
         MeshRenderer meshRenderer = GetComponentInChildren<MeshRenderer>();
-        GlowMaterial = meshRenderer.materials[1];
+        GlowMaterial = meshRenderer.materials[GlowMaterialIndex];
         GlowMaterial.SetColor("_EmissionColor", Color.grey);
     }
 

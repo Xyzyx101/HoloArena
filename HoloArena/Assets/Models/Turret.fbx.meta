@@ -1,0 +1,98 @@
+fileFormatVersion: 2
+guid: df5bef4444dbb7d4291a65a10954b9b1
+timeCreated: 1449425041
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Burnished Tungsten.lxp
+    100002: Camera
+    100004: Carbon Fiber Simple.lxp
+    100006: Directional Light
+    100008: Texture Group
+    100010: TurrestTilt
+    100012: //RootNode
+    100014: TurretBase
+    100016: TurretTurn
+    400000: Burnished Tungsten.lxp
+    400002: Camera
+    400004: Carbon Fiber Simple.lxp
+    400006: Directional Light
+    400008: Texture Group
+    400010: TurrestTilt
+    400012: //RootNode
+    400014: TurretBase
+    400016: TurretTurn
+    2300000: TurrestTilt
+    2300002: TurretBase
+    2300004: TurretTurn
+    3300000: TurrestTilt
+    3300002: TurretBase
+    3300004: TurretTurn
+    4300000: TurretBase
+    4300002: TurretTurn
+    4300004: TurrestTilt
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 30
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
