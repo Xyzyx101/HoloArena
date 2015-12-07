@@ -46,6 +46,9 @@ public class PlayerController : MonoBehaviour
         LookAtTarget = target.transform;
         IKController ikController = GetComponentInChildren<IKController>();
         ikController.TargetObj = target.transform;
+
+        SpriteRenderer sprite =  GetComponentInChildren<SpriteRenderer>();
+        sprite.color = FindObjectOfType<GameController>().GetTeam1PrimaryColor();
     }
 
     // Update is called once per frame

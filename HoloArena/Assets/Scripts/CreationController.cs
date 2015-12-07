@@ -9,9 +9,29 @@ public class CreationController : MonoBehaviour
     public RobotBuilder Builder;
     public RobotSelectorType[] Robots;
     public RobotLayoutDefinition RobotDefinition;
+    public GameController MyGameController;
+    public Dropdown PrimaryColorDropdown;
+    public Dropdown SecondaryColorDropdown;
+    public Text Title;
+
+    void Awake()
+    {
+        MyGameController = FindObjectOfType<GameController>();
+    }
 
     void Start()
     {
+        Builder = MyGameController.GetBuilder();
+        if (MyGameController.State == GameState.Player1Build)
+        {
+            PrimaryColorDropdown.value = 0;
+            SecondaryColorDropdown.value = 1;
+        }
+        else
+        {
+            PrimaryColorDropdown.value = 3;
+            SecondaryColorDropdown.value = 4;
+        }
         for (int i = 0; i < Robots.Length; ++i)
         {
             Builder.ActiveRobot = i;
@@ -24,6 +44,7 @@ public class CreationController : MonoBehaviour
         RobotDefinition = Builder.GetRobotLayout(0);
         Builder.ActiveRobot = 0;
         SetIconsFromBuilder();
+        UpdateUI();
     }
 
     public void NextRobot()
@@ -33,6 +54,7 @@ public class CreationController : MonoBehaviour
         RobotDefinition = Builder.GetRobotLayout(SelectedRobot);
         Builder.ActiveRobot = SelectedRobot;
         SetIconsFromBuilder();
+        UpdateUI();
     }
 
     public void PrevRobot()
@@ -46,6 +68,27 @@ public class CreationController : MonoBehaviour
         RobotDefinition = Builder.GetRobotLayout(SelectedRobot);
         Builder.ActiveRobot = SelectedRobot;
         SetIconsFromBuilder();
+        UpdateUI();
+    }
+
+    private void UpdateUI()
+    {
+        for (int i = 0; i < Robots.Length; ++i)
+        {
+            Robots[i].Panel.SetActive(SelectedRobot==i);
+        }
+        switch (SelectedRobot)
+        {
+            case 0:
+                Title.text = "Scout";
+                break;
+            case 1:
+                Title.text = "Assault";
+                break;
+            case 2:
+                Title.text = "Engineer";
+                break;
+        }
     }
 
     public bool VerifySlot(int slotID, string moduleName)
@@ -107,7 +150,7 @@ public class CreationController : MonoBehaviour
             }
         }
         Transform spawn = Robots[SelectedRobot].Spawn;
-        
+
         Destroy(spawn.GetChild(0).gameObject);
 
         GameObject robot = Builder.BuildRobot(Robots[SelectedRobot].Spawn);
@@ -155,6 +198,21 @@ public class CreationController : MonoBehaviour
                 SetIcon(i, module.ModuleName);
             }
         }
+    }
+
+    public void BeginGame()
+    {
+        MyGameController.BeginGame();
+    }
+
+    public void SetPrimaryColor(Object uiObject)
+    {
+        MyGameController.SetPrimaryColor(uiObject);
+    }
+
+    public void SetSecondaryColor(Object uiObject)
+    {
+        MyGameController.SetSecondaryColor(uiObject);
     }
 }
 

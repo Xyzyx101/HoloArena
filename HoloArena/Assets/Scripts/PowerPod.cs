@@ -26,7 +26,7 @@ public class PowerPod : MonoBehaviour
         CaptureMask = LayerMask.GetMask(layers);
         MeshRenderer meshRenderer = GetComponentInChildren<MeshRenderer>();
         GlowMaterial = meshRenderer.materials[GlowMaterialIndex];
-        GlowMaterial.SetColor("_EmissionColor", Color.grey);
+        GlowMaterial.SetColor("_EmissionColor", Color.white);
     }
 
     void Update()
@@ -100,12 +100,14 @@ public class PowerPod : MonoBehaviour
             if (Owner == 1)
             {
                 MapIcon.color = Team1Color;
-                GlowMaterial.SetColor("_EmissionColor", Team1Color * 50f);
+                GlowMaterial.SetColor("_Color", Team1Color);
+                GlowMaterial.SetColor("_EmissionColor", Team1Color * 1.5f);
             }
             else
             {
                 MapIcon.color = Team1Color;
-                GlowMaterial.SetColor("_EmissionColor", Team2Color);
+                GlowMaterial.SetColor("_Color", Team1Color);
+                GlowMaterial.SetColor("_EmissionColor", Team2Color * 1.5f);
             }
         }
         else

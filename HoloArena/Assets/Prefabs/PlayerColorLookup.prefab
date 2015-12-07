@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 159832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0114151239, y: .255387962, z: -.0631353259}
+  m_LocalPosition: {x: -16.3969173, y: -1.91490507, z: 35.7903976}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -40,36 +40,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerColors:
-  - Name: 
+  - Name: Black
     MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
-  - Name: 
-    MyColor: {r: 0, g: 0, b: 0, a: 0}
-    ColorTexture: {fileID: 0}
+    ColorTexture: {fileID: 2800000, guid: edb4583126d017b4089aa40d36368949, type: 3}
+  - Name: Blue
+    MyColor: {r: .0705882385, g: .0705882385, b: .674509823, a: 0}
+    ColorTexture: {fileID: 2800000, guid: c153c873818877c489402e7099c516df, type: 3}
+  - Name: Gold
+    MyColor: {r: .815686345, g: .843137324, b: 0, a: 0}
+    ColorTexture: {fileID: 2800000, guid: 779be2b8dd9e910428d81284cde1edcd, type: 3}
+  - Name: Green
+    MyColor: {r: .0156862754, g: .447058856, b: .0862745121, a: 0}
+    ColorTexture: {fileID: 2800000, guid: 8917d341a0ea6a6429dc3959b644b9bf, type: 3}
+  - Name: Orange
+    MyColor: {r: .800000072, g: .396078467, b: 0, a: 0}
+    ColorTexture: {fileID: 2800000, guid: 5231f699b8d0e8a4eb7d265843821bde, type: 3}
+  - Name: Pink
+    MyColor: {r: 1, g: .678431392, b: .831372619, a: 0}
+    ColorTexture: {fileID: 2800000, guid: 7fbecfb7ad548d44f94d4c5e39324be1, type: 3}
+  - Name: Purple
+    MyColor: {r: .568627477, g: .117647067, b: .427451015, a: 0}
+    ColorTexture: {fileID: 2800000, guid: 34d71056e3aeaf940a95ba50a0a8d213, type: 3}
+  - Name: Red
+    MyColor: {r: .800000072, g: 0, b: 0, a: 0}
+    ColorTexture: {fileID: 2800000, guid: ad5aa89e37507f84a98a7b1f24360f76, type: 3}
+  - Name: Silver
+    MyColor: {r: .792156935, g: .815686345, b: .819607913, a: 0}
+    ColorTexture: {fileID: 2800000, guid: d89ad9a7c89c6f247b3c623044abc6d6, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

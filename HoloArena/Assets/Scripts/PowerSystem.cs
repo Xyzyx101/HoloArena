@@ -11,6 +11,11 @@ public class PowerSystem : MonoBehaviour
     public PlayerController Player1;
     public PlayerController Player2;
 
+    void Awake()
+    {
+        MyGameController = FindObjectOfType<GameController>();
+    }
+
     // Use this for initialization
     void Start()
     {

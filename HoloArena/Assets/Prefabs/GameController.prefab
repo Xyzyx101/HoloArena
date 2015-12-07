@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &153720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 448574}
+  - 114: {fileID: 11420940}
+  m_Layer: 0
+  m_Name: RobotBuilder2
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &165932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441590}
+  - 114: {fileID: 11448550}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &171422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 412110}
+  - 114: {fileID: 11415732}
+  m_Layer: 0
+  m_Name: RobotBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &183210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 408174}
+  - 114: {fileID: 11401742}
+  m_Layer: 0
+  m_Name: PlayerColorLookup
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &408174
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -.850000381, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 441590}
+  m_RootOrder: 0
+--- !u!4 &412110
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.0240707, y: 7.54119635, z: 1.44011939}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 441590}
+  m_RootOrder: 1
+--- !u!4 &441590
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -8.64999962, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 408174}
+  - {fileID: 412110}
+  - {fileID: 448574}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &448574
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.2434311, y: 7.6630106, z: -.873472095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 441590}
+  m_RootOrder: 2
+--- !u!114 &11401742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c99dde80f7f53f41b3038ab267c4f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerColors:
+  - Name: Black
+    MyColor: {r: 0, g: 0, b: 0, a: 1}
+    ColorTexture: {fileID: 2800000, guid: edb4583126d017b4089aa40d36368949, type: 3}
+  - Name: Blue
+    MyColor: {r: .0705882385, g: .0705882385, b: .674509823, a: 1}
+    ColorTexture: {fileID: 2800000, guid: c153c873818877c489402e7099c516df, type: 3}
+  - Name: Gold
+    MyColor: {r: .815686345, g: .843137324, b: 0, a: 1}
+    ColorTexture: {fileID: 2800000, guid: 779be2b8dd9e910428d81284cde1edcd, type: 3}
+  - Name: Green
+    MyColor: {r: .0156862754, g: .447058856, b: .0862745121, a: 1}
+    ColorTexture: {fileID: 2800000, guid: 8917d341a0ea6a6429dc3959b644b9bf, type: 3}
+  - Name: Orange
+    MyColor: {r: .800000072, g: .396078467, b: 0, a: 1}
+    ColorTexture: {fileID: 2800000, guid: 5231f699b8d0e8a4eb7d265843821bde, type: 3}
+  - Name: Pink
+    MyColor: {r: 1, g: .678431392, b: .831372619, a: 1}
+    ColorTexture: {fileID: 2800000, guid: 7fbecfb7ad548d44f94d4c5e39324be1, type: 3}
+  - Name: Purple
+    MyColor: {r: .568627477, g: .117647067, b: .427451015, a: 1}
+    ColorTexture: {fileID: 2800000, guid: 34d71056e3aeaf940a95ba50a0a8d213, type: 3}
+  - Name: Red
+    MyColor: {r: .800000072, g: 0, b: 0, a: 1}
+    ColorTexture: {fileID: 2800000, guid: ad5aa89e37507f84a98a7b1f24360f76, type: 3}
+  - Name: Silver
+    MyColor: {r: .792156935, g: .815686345, b: .819607913, a: 1}
+    ColorTexture: {fileID: 2800000, guid: d89ad9a7c89c6f247b3c623044abc6d6, type: 3}
+--- !u!114 &11415732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67306b2d7d98381458dc3556c9cad00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotObjs:
+  - Type: 0
+    PrimaryColor: {r: 1, g: 0, b: .927999973, a: 1}
+    SecondaryColor: {r: .367647052, g: .367647052, b: .367647052, a: 1}
+    EnginePower: 0
+    Agility: 0
+    Weight: 0
+    Armour: 0
+    Modules: []
+  - Type: 0
+    PrimaryColor: {r: 1, g: 0, b: 0, a: 1}
+    SecondaryColor: {r: .367647052, g: .367647052, b: .367647052, a: 1}
+    EnginePower: 0
+    Agility: 0
+    Weight: 0
+    Armour: 0
+    Modules: []
+  - Type: 0
+    PrimaryColor: {r: 1, g: 0, b: 0, a: 1}
+    SecondaryColor: {r: .45588237, g: .45588237, b: .45588237, a: 1}
+    EnginePower: 0
+    Agility: 0
+    Weight: 0
+    Armour: 0
+    Modules: []
+  RobotLayouts:
+  - Slots:
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 1
+    - Type: 1
+      Group: 2
+    - Type: 1
+      Group: 2
+    - Type: 2
+      Group: 3
+    - Type: 2
+      Group: 3
+    - Type: 2
+      Group: 3
+  - Slots:
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 1
+    - Type: 0
+      Group: 2
+    - Type: 1
+      Group: 3
+    - Type: 2
+      Group: 4
+    - Type: 2
+      Group: 4
+  - Slots:
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 1
+    - Type: 1
+      Group: 2
+    - Type: 1
+      Group: 2
+    - Type: 1
+      Group: 3
+    - Type: 1
+      Group: 3
+    - Type: 2
+      Group: 4
+  ModuleLayouts:
+  - ModuleName: MachineGun
+    ModuleType: 0
+    ModuleSize: 1
+    Prefab: {fileID: 174770, guid: 72c347f24256878499d1db3aca398e2e, type: 2}
+    Icon: {fileID: 21300000, guid: 224e28ca6b71c2e48927b041d52c0329, type: 3}
+  - ModuleName: Laser
+    ModuleType: 0
+    ModuleSize: 1
+    Prefab: {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    Icon: {fileID: 21300000, guid: 7e00f7f90b72c1848ae34c4568295958, type: 3}
+  - ModuleName: Blaster
+    ModuleType: 0
+    ModuleSize: 2
+    Prefab: {fileID: 101640, guid: fca8606175ba92a47b4d9c532f4492de, type: 2}
+    Icon: {fileID: 21300000, guid: c540c137c6fe8f44dbca923185a08dbf, type: 3}
+  - ModuleName: Missles
+    ModuleType: 0
+    ModuleSize: 2
+    Prefab: {fileID: 170172, guid: 158589e78c7befb4ebd927131105d104, type: 2}
+    Icon: {fileID: 21300000, guid: 3875509f7f7a0df4dad035741ad49060, type: 3}
+  - ModuleName: GaussGun
+    ModuleType: 0
+    ModuleSize: 3
+    Prefab: {fileID: 122400, guid: 474f3d1731c14534e9fb3b8f378ae9af, type: 2}
+    Icon: {fileID: 21300000, guid: 05354eddf3e687941b54690d580ce1b7, type: 3}
+  - ModuleName: DenseArmor
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 113048, guid: 270c66e66367da74f9179ac523d63e70, type: 2}
+    Icon: {fileID: 21300000, guid: 9824f802d57d7e1468d2884f6a5cb351, type: 3}
+  - ModuleName: Shield
+    ModuleType: 1
+    ModuleSize: 2
+    Prefab: {fileID: 192800, guid: 3871518ec686be6489f457ac6d940b75, type: 2}
+    Icon: {fileID: 21300000, guid: 9dbff4ef63a2aa04cb185080e0a9d48d, type: 3}
+  - ModuleName: LightSkeleton
+    ModuleType: 2
+    ModuleSize: 1
+    Prefab: {fileID: 165442, guid: 4638eac2c59395f4b9ea93c6e1d7e322, type: 2}
+    Icon: {fileID: 21300000, guid: 63f299ceddfff644293b660fa9fceda7, type: 3}
+  - ModuleName: Batteries
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 110670, guid: 022f262eab578124f9ddd18cd7f9dae8, type: 2}
+    Icon: {fileID: 21300000, guid: 24388a165788ddd41a0984d3665c8154, type: 3}
+  - ModuleName: EMP
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 191118, guid: 96b672b4639a8c745828ea26e0523176, type: 2}
+    Icon: {fileID: 21300000, guid: ebcc84e7310333a4dad1e515d3d27cfc, type: 3}
+  - ModuleName: EngineBoost
+    ModuleType: 2
+    ModuleSize: 1
+    Prefab: {fileID: 170418, guid: c1b984cbd233fe94d896f1567d0a8122, type: 2}
+    Icon: {fileID: 21300000, guid: 4f7fdaf79a07b3c44aa2394f1afc92f7, type: 3}
+  - ModuleName: JumpJets
+    ModuleType: 2
+    ModuleSize: 2
+    Prefab: {fileID: 105982, guid: 47b216ba2d268ee47b1e23069e6c3d2d, type: 2}
+    Icon: {fileID: 21300000, guid: 96361a06d8432394aac77493b6e9ad7b, type: 3}
+  - ModuleName: Cloak
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 127282, guid: 45bef2f905c89f842973aee187a1cc97, type: 2}
+    Icon: {fileID: 21300000, guid: f35e3aadc8798f845923f913120fb914, type: 3}
+  - ModuleName: Empty
+    ModuleType: 2
+    ModuleSize: 1
+    Prefab: {fileID: 0}
+    Icon: {fileID: 21300000, guid: c86e3e5e2187eff46a3bdfe34f9932cb, type: 3}
+  InitialStats:
+  - Prefab: {fileID: 170858, guid: 4f343aa8eb36d724293f3a0f66c4cf63, type: 2}
+    EnginePower: 100
+    Agility: 50
+    Weight: 150
+    Armour: 200
+  - Prefab: {fileID: 101802, guid: c59f5a703e835f540a96e83eb3495276, type: 2}
+    EnginePower: 80
+    Agility: 40
+    Weight: 250
+    Armour: 400
+  - Prefab: {fileID: 104494, guid: 633fe4519f2148b4786eb797ddcea60f, type: 2}
+    EnginePower: 70
+    Agility: 25
+    Weight: 300
+    Armour: 350
+  DefaultModules:
+  - Modules:
+    - {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    - {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    - {fileID: 127282, guid: 45bef2f905c89f842973aee187a1cc97, type: 2}
+    - {fileID: 110670, guid: 022f262eab578124f9ddd18cd7f9dae8, type: 2}
+    - {fileID: 170418, guid: c1b984cbd233fe94d896f1567d0a8122, type: 2}
+    - {fileID: 165442, guid: 4638eac2c59395f4b9ea93c6e1d7e322, type: 2}
+    - {fileID: 165442, guid: 4638eac2c59395f4b9ea93c6e1d7e322, type: 2}
+  - Modules:
+    - {fileID: 122400, guid: 474f3d1731c14534e9fb3b8f378ae9af, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 174770, guid: 72c347f24256878499d1db3aca398e2e, type: 2}
+    - {fileID: 174770, guid: 72c347f24256878499d1db3aca398e2e, type: 2}
+    - {fileID: 113048, guid: 270c66e66367da74f9179ac523d63e70, type: 2}
+    - {fileID: 105982, guid: 47b216ba2d268ee47b1e23069e6c3d2d, type: 2}
+    - {fileID: 0}
+  - Modules:
+    - {fileID: 170172, guid: 158589e78c7befb4ebd927131105d104, type: 2}
+    - {fileID: 0}
+    - {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    - {fileID: 192800, guid: 3871518ec686be6489f457ac6d940b75, type: 2}
+    - {fileID: 0}
+    - {fileID: 110670, guid: 022f262eab578124f9ddd18cd7f9dae8, type: 2}
+    - {fileID: 191118, guid: 96b672b4639a8c745828ea26e0523176, type: 2}
+    - {fileID: 170418, guid: c1b984cbd233fe94d896f1567d0a8122, type: 2}
+  ActiveRobot: 0
+--- !u!114 &11420940
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67306b2d7d98381458dc3556c9cad00c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RobotObjs:
+  - Type: 0
+    PrimaryColor: {r: 0, g: .0426880009, b: .927999973, a: 1}
+    SecondaryColor: {r: .902999997, g: .86688, b: 0, a: 1}
+    EnginePower: 0
+    Agility: 0
+    Weight: 0
+    Armour: 0
+    Modules: []
+  - Type: 0
+    PrimaryColor: {r: 0, g: .0426880009, b: .927999973, a: 1}
+    SecondaryColor: {r: .902999997, g: .86688, b: 0, a: 1}
+    EnginePower: 0
+    Agility: 0
+    Weight: 0
+    Armour: 0
+    Modules: []
+  - Type: 0
+    PrimaryColor: {r: 0, g: .0426880009, b: .927999973, a: 1}
+    SecondaryColor: {r: .902999997, g: .86688, b: 0, a: 1}
+    EnginePower: 0
+    Agility: 0
+    Weight: 0
+    Armour: 0
+    Modules: []
+  RobotLayouts:
+  - Slots:
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 1
+    - Type: 1
+      Group: 2
+    - Type: 1
+      Group: 2
+    - Type: 2
+      Group: 3
+    - Type: 2
+      Group: 3
+    - Type: 2
+      Group: 3
+  - Slots:
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 1
+    - Type: 0
+      Group: 2
+    - Type: 1
+      Group: 3
+    - Type: 2
+      Group: 4
+    - Type: 2
+      Group: 4
+  - Slots:
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 0
+    - Type: 0
+      Group: 1
+    - Type: 1
+      Group: 2
+    - Type: 1
+      Group: 2
+    - Type: 1
+      Group: 3
+    - Type: 1
+      Group: 3
+    - Type: 2
+      Group: 4
+  ModuleLayouts:
+  - ModuleName: MachineGun
+    ModuleType: 0
+    ModuleSize: 1
+    Prefab: {fileID: 174770, guid: 72c347f24256878499d1db3aca398e2e, type: 2}
+    Icon: {fileID: 21300000, guid: 224e28ca6b71c2e48927b041d52c0329, type: 3}
+  - ModuleName: Laser
+    ModuleType: 0
+    ModuleSize: 1
+    Prefab: {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    Icon: {fileID: 21300000, guid: 7e00f7f90b72c1848ae34c4568295958, type: 3}
+  - ModuleName: Blaster
+    ModuleType: 0
+    ModuleSize: 2
+    Prefab: {fileID: 101640, guid: fca8606175ba92a47b4d9c532f4492de, type: 2}
+    Icon: {fileID: 21300000, guid: c540c137c6fe8f44dbca923185a08dbf, type: 3}
+  - ModuleName: Missles
+    ModuleType: 0
+    ModuleSize: 2
+    Prefab: {fileID: 170172, guid: 158589e78c7befb4ebd927131105d104, type: 2}
+    Icon: {fileID: 21300000, guid: 3875509f7f7a0df4dad035741ad49060, type: 3}
+  - ModuleName: GaussGun
+    ModuleType: 0
+    ModuleSize: 3
+    Prefab: {fileID: 122400, guid: 474f3d1731c14534e9fb3b8f378ae9af, type: 2}
+    Icon: {fileID: 21300000, guid: 05354eddf3e687941b54690d580ce1b7, type: 3}
+  - ModuleName: DenseArmor
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 113048, guid: 270c66e66367da74f9179ac523d63e70, type: 2}
+    Icon: {fileID: 21300000, guid: 9824f802d57d7e1468d2884f6a5cb351, type: 3}
+  - ModuleName: Shield
+    ModuleType: 1
+    ModuleSize: 2
+    Prefab: {fileID: 192800, guid: 3871518ec686be6489f457ac6d940b75, type: 2}
+    Icon: {fileID: 21300000, guid: 9dbff4ef63a2aa04cb185080e0a9d48d, type: 3}
+  - ModuleName: LightSkeleton
+    ModuleType: 2
+    ModuleSize: 1
+    Prefab: {fileID: 165442, guid: 4638eac2c59395f4b9ea93c6e1d7e322, type: 2}
+    Icon: {fileID: 21300000, guid: 63f299ceddfff644293b660fa9fceda7, type: 3}
+  - ModuleName: Batteries
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 110670, guid: 022f262eab578124f9ddd18cd7f9dae8, type: 2}
+    Icon: {fileID: 21300000, guid: 24388a165788ddd41a0984d3665c8154, type: 3}
+  - ModuleName: EMP
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 191118, guid: 96b672b4639a8c745828ea26e0523176, type: 2}
+    Icon: {fileID: 21300000, guid: ebcc84e7310333a4dad1e515d3d27cfc, type: 3}
+  - ModuleName: EngineBoost
+    ModuleType: 2
+    ModuleSize: 1
+    Prefab: {fileID: 170418, guid: c1b984cbd233fe94d896f1567d0a8122, type: 2}
+    Icon: {fileID: 21300000, guid: 4f7fdaf79a07b3c44aa2394f1afc92f7, type: 3}
+  - ModuleName: JumpJets
+    ModuleType: 2
+    ModuleSize: 2
+    Prefab: {fileID: 105982, guid: 47b216ba2d268ee47b1e23069e6c3d2d, type: 2}
+    Icon: {fileID: 21300000, guid: 96361a06d8432394aac77493b6e9ad7b, type: 3}
+  - ModuleName: Cloak
+    ModuleType: 1
+    ModuleSize: 1
+    Prefab: {fileID: 127282, guid: 45bef2f905c89f842973aee187a1cc97, type: 2}
+    Icon: {fileID: 21300000, guid: f35e3aadc8798f845923f913120fb914, type: 3}
+  - ModuleName: Empty
+    ModuleType: 2
+    ModuleSize: 1
+    Prefab: {fileID: 0}
+    Icon: {fileID: 21300000, guid: c86e3e5e2187eff46a3bdfe34f9932cb, type: 3}
+  InitialStats:
+  - Prefab: {fileID: 170858, guid: 4f343aa8eb36d724293f3a0f66c4cf63, type: 2}
+    EnginePower: 100
+    Agility: 50
+    Weight: 150
+    Armour: 200
+  - Prefab: {fileID: 101802, guid: c59f5a703e835f540a96e83eb3495276, type: 2}
+    EnginePower: 80
+    Agility: 40
+    Weight: 250
+    Armour: 400
+  - Prefab: {fileID: 104494, guid: 633fe4519f2148b4786eb797ddcea60f, type: 2}
+    EnginePower: 70
+    Agility: 25
+    Weight: 300
+    Armour: 350
+  DefaultModules:
+  - Modules:
+    - {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    - {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    - {fileID: 127282, guid: 45bef2f905c89f842973aee187a1cc97, type: 2}
+    - {fileID: 110670, guid: 022f262eab578124f9ddd18cd7f9dae8, type: 2}
+    - {fileID: 170418, guid: c1b984cbd233fe94d896f1567d0a8122, type: 2}
+    - {fileID: 165442, guid: 4638eac2c59395f4b9ea93c6e1d7e322, type: 2}
+    - {fileID: 165442, guid: 4638eac2c59395f4b9ea93c6e1d7e322, type: 2}
+  - Modules:
+    - {fileID: 122400, guid: 474f3d1731c14534e9fb3b8f378ae9af, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 174770, guid: 72c347f24256878499d1db3aca398e2e, type: 2}
+    - {fileID: 174770, guid: 72c347f24256878499d1db3aca398e2e, type: 2}
+    - {fileID: 113048, guid: 270c66e66367da74f9179ac523d63e70, type: 2}
+    - {fileID: 105982, guid: 47b216ba2d268ee47b1e23069e6c3d2d, type: 2}
+    - {fileID: 0}
+  - Modules:
+    - {fileID: 170172, guid: 158589e78c7befb4ebd927131105d104, type: 2}
+    - {fileID: 0}
+    - {fileID: 193492, guid: b8a83cae2efb2274798c73b3dc12946d, type: 2}
+    - {fileID: 192800, guid: 3871518ec686be6489f457ac6d940b75, type: 2}
+    - {fileID: 0}
+    - {fileID: 110670, guid: 022f262eab578124f9ddd18cd7f9dae8, type: 2}
+    - {fileID: 191118, guid: 96b672b4639a8c745828ea26e0523176, type: 2}
+    - {fileID: 170418, guid: c1b984cbd233fe94d896f1567d0a8122, type: 2}
+  ActiveRobot: 0
+--- !u!114 &11448550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 165932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1aea85a7992b5f468e9d868a1f88582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player1Spawn: {fileID: 0}
+  Player2Spawn: {fileID: 0}
+  RobotBuilder1: {fileID: 11415732}
+  RobotBuilder2: {fileID: 11420940}
+  Player1Camera: {fileID: 0}
+  Player2Camera: {fileID: 0}
+  Player1: {fileID: 0}
+  Player2: {fileID: 0}
+  State: 0
+  CursorLocked: 0
+  MyColorLookup: {fileID: 11401742}
+  Team1PrimaryColor: {r: 0, g: 0, b: 0, a: 0}
+  Team1SecondaryColor: {r: 0, g: 0, b: 0, a: 0}
+  Team2PrimaryColor: {r: 0, g: 0, b: 0, a: 0}
+  Team2SecondaryColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 165932}
+  m_IsPrefabParent: 1

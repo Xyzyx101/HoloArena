@@ -91,6 +91,7 @@ public class RobotBuilder : MonoBehaviour
             robotDef.Agility += module.Agility;
             robotDef.Weight += module.Weight;
             robotDef.Armour += module.Armour;
+            Debug.Log(moduleObj.name + " " + i);
             moduleBinder.Bind(i, robotDef.Modules[i]);
         }
 
